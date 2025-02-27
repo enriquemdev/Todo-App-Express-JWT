@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const swaggerUi = require("swagger-ui-express");
 const swaggerJsDoc = require("swagger-jsdoc");
-const express = require("express");
 
 if (process.env.NODE_ENV !== "production") {
     require("dotenv").config();
